@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coverção </title>
+</head>
+<body>
+   <h1>converta em dolar</h1>
+   
+   <script>
+    function escreval(){
+        document.write("<br>");
+
+    }
+
+    function escreva(frase){
+        document.write(frase);
+        escreval();
+    }
+    function coverter(real){
+        return real*5.6
+    }
+    var realInformado = parseInt(prompt("quantos reais voce tem"));
+    var convertido = coverter (realInformado);
+    escreva("<big> voce tera:</big>= " + "$"+convertido);
+   </script>
+</body>
+</html>
